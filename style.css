@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./peronal-website-images/hero-img.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+}
+
+.hero-text .hero-name {
+  font-size: 5rem;
+}
+
+.hero-text .hero-description {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.hero-text .hero-btn {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.hero-btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(208, 208, 207);
+  border: 1px solid black;
+}
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.projects-section-header {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.grid-container {
+  width: 70%;
+  background-color: white;/*change to red if something goes wrong*/
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  border: none/*1px solid black*/;
+  margin-bottom: 10rem;
+}
+
+.grid-item {
+  background-color: plum;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  height: 400px;
+  border: 1px solid rgb(236, 227, 227);
+}
+
+.grid-item:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.about-me-header {
+  margin-bottom: 1.8rem;
+}
+
+.me {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgb(236, 227, 227);
+  margin-bottom: 1.8rem;
+}
+
+.bio-description {
+  font-size: 20px;
+  width: 30%;
+}
+
+.skills-container {
+  font-style: arial;
+  margin-bottom: 10rem;
+}
+
+.skills-header {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.skills-grid {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: rgb(255, 255, 255);
+  gap: 4rem;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  width: 100%;
+}
+
+.skills-item h3 {
+  font-size: 19px;
+  color: aqua;
+}
+
+.skills-item p {
+  font-size: 18px;
+}
+
+.skills-img {
+  width: 250px;
+  height: 250px;
+}
+
+.contact-me-header {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  width: 100%;
+}
+
+.contact-me-container {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(235, 236, 236);
+  margin-bottom: 10rem;
+}
+
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.links {
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  margin-right: .5rem;
+  width: 30px;
+  height: 30px;
+}
